@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1080;
+    height: 1500px;
+    background: linear-gradient(to top, #00f, red, #00f);
+}
+
+/* LOGO */
+.logo {
+    width: 80px;
+    height: 70px;
+    top: 15px;
+    left: 50px;
+    border: 2px solid aqua;
+    background: linear-gradient(to top, #f0f, #00f, #f0f);
+
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0px 5px 10px rgba(0, 255, 255, 0.8);
+}
+
+.logo a {
+    color: aqua;
+    text-decoration: none;
+
+}
+
+/* MENU */
+.menu1 {
+    background-color: black;
+    height: 100px;
+    /* border: 1px solid blue; */
+}
+
+.menu1 ul {
+    width: 500px;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu1 ul li {
+    width: 100px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 255, 255, 0.6);
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+}
+/* ------------------------------------ */
+/* pegajoso */
+
+
+/* -------------------------------------MAIN-------------------------- */
+
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto_a {
+    width: 150px;
+    height: 200px;
+    color: aqua;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 750%;
+    text-decoration: none;
+    font-size: 110%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    background: linear-gradient(to top left, red, #00f);
+    padding: 10px;
+}
+
+.foto0 img {
+    width: 150px;
+    height: 200px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
+
+.foto1 {
+    position: absolute;
+    top: 18%;
+    right: 3%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.foto2 {
+    position: absolute;
+    top: 55%;
+    right: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.foto3 {
+    position: absolute;
+    top: 55%;
+    left: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.foto4 {
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.texto {
+    width: 45%;
+    padding: 20px;
+    text-align: justify;
+
+    font-family: "Londrina Sketch", sans-serif;
+    ;
+
+    position: absolute;
+    top: 155px;
+    left: 28%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: pink;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
